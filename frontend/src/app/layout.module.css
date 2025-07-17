@@ -1,0 +1,17 @@
+.conteiner{
+    display: grid;
+    grid-template-columns: 2fr 5fr 3fr;
+    height: 100vh;
+}
+.leftSideBar{
+    height: 100hv;
+    background-color: blue;
+}
+.main{
+    height: 100hv;
+    background-color: red;
+}
+.rightSideBar{
+    height: 100hv;
+    background-color: green;
+}
