@@ -5,13 +5,19 @@
 }
 .leftSideBar{
     height: 100hv;
-    background-color: blue;
+    border: 1px solid black;
+    margin-right: 3px;
 }
 .main{
     height: 100hv;
-    background-color: red;
+    border: 1px solid black;
 }
 .rightSideBar{
     height: 100hv;
-    background-color: green;
+    border: 1px solid black;
+    margin-left: 3px;
+}
+.header{
+    border: 1px solid black;
+    margin-bottom: 3px;
 }

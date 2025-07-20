@@ -1,0 +1,7 @@
+.navLink{
+    display: block;
+    margin: 0.5rem 0rem;
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+}

@@ -4,6 +4,7 @@ import "./globals.css";
 import styles from './layout.module.css'
 import LeftSideBar from "./component/leftSideBars/LeftSideBar";
 import RightSideBar from "./component/rightSideBar/RightSideBar";
+import Header from "./component/header/Header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,7 +32,7 @@ export default function RootLayout({
         <div className={styles.conteiner}>
           <div className={styles.leftSideBar}><LeftSideBar /></div>
           <div className={styles.main}>
-            <div className={styles.header}><Headers/></div>
+            <div className={styles.header}><Header/></div>
             <div className={styles.mainContent}>{children}</div>
           </div>
           <div className={styles.rightSideBar}><RightSideBar /></div>

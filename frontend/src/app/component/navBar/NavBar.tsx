@@ -6,13 +6,13 @@ export default function NavBar(){
     return(
         <>
             <nav className={styles.navBar}>
-                <ol>
+                <ul>
                     <li className={styles.navItem}><Link href={'./'} className={styles.navLink}>Home</Link></li>
                     <li className={styles.navItem}><Link href={'./'} className={styles.navLink}>Search</Link></li>
                     <li className={styles.navItem}><Link href={'./'} className={styles.navLink}>Add Post</Link></li>
                     <li className={styles.navItem}><Link href={'./'} className={styles.navLink}>Liked Post</Link></li>
                     <li className={styles.navItem}><Link href={'./'} className={styles.navLink}>Profile</Link></li>
-                </ol>
+                </ul>
             </nav>
         </>
     )
