@@ -5,3 +5,14 @@
     width: 60px;
     border: 1px solid black;
 }
+
+@media (max-width: 768px){
+    .navList{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .navItem{
+        display: block;
+    }
+}

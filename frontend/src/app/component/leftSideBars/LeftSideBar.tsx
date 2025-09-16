@@ -14,7 +14,7 @@ export default function Nav(){
                 <div className={styles.NavBar}>
                     <NavBar />
                 </div>
-                <div className={styles.moreOpotions}>
+                <div className={styles.moreOptions}>
                     <MoreOptions />
                 </div>
             </div>
